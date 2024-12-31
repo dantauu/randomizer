@@ -1,0 +1,136 @@
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Montserrat-B';
+    src: url('../assets/fonts/Montserrat-Bold.woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-M';
+    src: url('../assets/fonts/Montserrat-Medium.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1000px;
+    padding: 100px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper-input-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-inner {
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Montserrat-M';
+    padding: 12px;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    background: #d6d6d6;
+}
+
+.button-inner {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat-M';
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.delete-btn {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat-M';
+    background: #c4c4c4;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    /* padding-bottom: 300px; */
+}
+
+.add-words-wrapper {
+    margin: 80px 0 120px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #dcdcdc;
+    border-radius: 10px;
+    width: 480px;
+}
+
+#randomWordDisplay {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-family: 'Montserrat-M';
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.word-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;
+    font-family: 'Montserrat-B';
+    padding: 20px;
+}
+
+.take-word {
+    border: none;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat-M';
+    background: #e0e0e0;
+    cursor: pointer;
+}
